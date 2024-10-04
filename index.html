@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comprita</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>LISTA DE PRODUCTOS</h1>
+
+      <div class="carrito">
+        <img src="https://cdn-icons-png.flaticon.com/512/3144/3144456.png" class=""alt="">
+        <span id="conteo"></span>
+      </div>
+    </header>
+
+    <ul>
+      <li><img src='https://lh6.googleusercontent.com/proxy/TIlnylXvhYIMRtHk7c4CaDpNTZLOyaq10fhFlLUq3Uz5dt_LCMcJXSpRuq3FLtT5lgOg33_ucbX1fBf3jAxMdvN8MJjyU60jajmvSykPqUfj' alt="sprite" class="imagenes">
+        SPRITE
+        <button
+          onclick="agregarCosas('Sprike' , 'Producto Aleman', '$12.000', 'https://lh6.googleusercontent.com/proxy/TIlnylXvhYIMRtHk7c4CaDpNTZLOyaq10fhFlLUq3Uz5dt_LCMcJXSpRuq3FLtT5lgOg33_ucbX1fBf3jAxMdvN8MJjyU60jajmvSykPqUfj')"
+        >
+          AGREGAR
+        </button>
+      </li>
+      <li><img src='https://png.pngtree.com/png-clipart/20231116/original/pngtree-cocacola-can-resting-on-a-blank-photo-png-image_13582802.png' alt="coca" class="imagenes">
+        COCA-COLA
+        <button
+          onclick="agregarCosas('Coca-Cola' , 'Producto EEUU', '$10.000', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQUluDutLordyzhcuxDGvFKl8h0hNgz0Dtrw&s')"
+        >
+          AGREGAR
+        </button>
+      </li>
+      <li><img src='https://212global.com/wp-content/uploads/2024/07/61a696f64f1abdd16726b639_thumbnail.png' alt="Pepsi" class="imagenes">
+        PEPSI
+        <button
+          onclick="agregarCosas('Pepsi' , 'Producto EEUU', '$14.000', 'https://212global.com/wp-content/uploads/2024/07/61a696f64f1abdd16726b639_thumbnail.png')"
+        >
+          AGREGAR
+        </button>
+      </li>
+      <li><img src='https://mercaditolalomahn.com/wp-content/uploads/2020/10/NTgzZTdjMz-1000x1000-1.png' alt="" class="imagenes">
+        CANADA DRY
+        <button
+          onclick="agregarCosas('Canada Dry' , 'Producto EEUU', '$17.000', 'https://mercaditolalomahn.com/wp-content/uploads/2020/10/NTgzZTdjMz-1000x1000-1.png')"
+        >
+          AGREGAR
+        </button>
+      </li>
+      <li><img src='https://catalogodelmundo.com/wp-content/uploads/2023/03/Postobon-lata-editado.png' alt="" class="imagenes">
+        POSTOBON
+        <button
+          onclick="agregarCosas('Postobon Manzana' , 'Producto Colombiano', '$18.000', 'https://catalogodelmundo.com/wp-content/uploads/2023/03/Postobon-lata-editado.png')"
+        >
+          AGREGAR
+        </button>
+      </li>
+    </ul>
+
+    <div id="product"></div>
+  </body>
+  <script src="./main.js"></script>
+</html>
